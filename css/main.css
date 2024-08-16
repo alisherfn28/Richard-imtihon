@@ -82,13 +82,13 @@ header {
   justify-content: space-between;
 }
 
-.left h1 {
+.header-left h1 {
   font-size: 80px;
   line-height: 80px;
   color: #ffffff;
 }
 
-.left p {
+.header-left p {
   padding-top: 10px;
   font-size: 30px;
   line-height: 44px;
@@ -96,7 +96,7 @@ header {
   padding-bottom: 25px;
 }
 
-.left button {
+.header-left button {
   width: 170px;
   height: 66px;
   background-color: #fc0a7e;
@@ -113,7 +113,7 @@ main {
   background-color: #1b1b1b;
 }
 
-.tepa h3 {
+.main-tepa h3 {
   font-size: 12px;
   line-height: 20px;
   align-items: center;
@@ -121,7 +121,7 @@ main {
   padding-top: 100px;
 }
 
-.tepa p {
+.main-tepa p {
   font-size: 38px;
   line-height: 48px;
   align-items: center;
@@ -214,7 +214,7 @@ main {
   margin-top: 159px;
 }
 
-.box2 h3 {
+.BOX-box h3 {
   font-size: 18px;
   line-height: 24px;
   align-items: center;
@@ -223,7 +223,7 @@ main {
   font-weight: 700;
 }
 
-.box2 p {
+.BOX-box p {
   font-size: 16px;
   line-height: 30px;
   align-items: center;
@@ -250,6 +250,7 @@ main {
   display: flex;
   column-gap: 200px;
   margin-top: 160px;
+  margin-left: 50px;
 }
 
 .block {
@@ -260,21 +261,21 @@ main {
   justify-content: center;
 }
 
-.left1 h3 {
+.block-left h3 {
   font-size: 12px;
   line-height: 21px;
   letter-spacing: 2px;
   color: #a8a8a8;
 }
 
-.left1 h2 {
+.block-left h2 {
   font-size: 38px;
   line-height: 48px;
   color: #000000;
   padding-top: 25px;
 }
 
-.left1 p {
+.block-left p {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -282,7 +283,7 @@ main {
   padding-top: 22px;
 }
 
-.left1 a {
+.block-left a {
   color: #000000;
 }
 
@@ -294,21 +295,21 @@ main {
   justify-content: center;
 }
 
-.right1 h3 {
+.block-1-right h3 {
   font-size: 12px;
   line-height: 21px;
   letter-spacing: 2px;
   color: #a8a8a8;
 }
 
-.right1 h2 {
+.block-1-right h2 {
   font-size: 38px;
   line-height: 48px;
   color: #000000;
   padding-top: 25px;
 }
 
-.right1 p {
+.block-1-right p {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -316,7 +317,7 @@ main {
   padding-top: 22px;
 }
 
-.right1 a {
+.block-1-right a {
   color: #000000;
 }
 
@@ -362,9 +363,11 @@ main {
 }
 
 .rasm {
-  position: relative;
-  right: 100px;
   width: 100%;
+  height: 518px;
+  background-image: url(../img/phones.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .section {
@@ -405,6 +408,19 @@ main {
   column-gap: 10px;
   justify-content: center;
   padding-top: 40px;
+}
+
+.button a {
+  width: 171px;
+  height: 66px;
+  border: 1px solid #b04bb3;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
 
 .tepa-footer {
